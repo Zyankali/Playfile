@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Quelle.cpp" />
+    <ClCompile Include="sysstarter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Startup.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
