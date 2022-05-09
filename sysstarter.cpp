@@ -25,13 +25,13 @@ void Startup::upstart()
 
 	for (i = 0; i < 10000; i++)
 	{
-		cout << "[.   ] Snchronization System Time.   " << "\t\r" << flush;
-		cout << "[..  ] Snchronization System Time..  " << "\t\r" << flush;
-		cout << "[... ] Snchronization System Time... " << "\t\r" << flush;
-		cout << "[....] Snchronization System Time...." << "\t\r" << flush;
+		cout << "[.   ] Synchronization System Time.   " << "\t\r" << flush;
+		cout << "[..  ] Synchronization System Time..  " << "\t\r" << flush;
+		cout << "[... ] Synchronization System Time... " << "\t\r" << flush;
+		cout << "[....] Synchronization System Time...." << "\t\r" << flush;
 	}
 
-	cout << "[ OK ] Snchronization System Time                " << "\t\n";
+		cout << "[ OK ] Synchronization System Time                " << "\t\n";
 
 	for (i = 0; i < 10000; i++)
 	{
@@ -84,31 +84,32 @@ void Startup::upstart()
 	}
 
 	cout << "[ OK ] FINAL startup and fastcheck                " << "\t\n";
-	sleep(2000);
+	Sleep(2000);
+	
 	cout << "All Done! Ready to go" << "\t\n";
 		cout << "[10]             " << "\t\r" << flush;
-		sleep(1000);
+		Sleep(1000);
 
-		cout << "[09]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[08]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[07]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[06]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[05]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[04]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[03]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[02]            " << "\t\r" << flush;
-		sleep(1000);
-		cout << "[01]            " << "\t\r" << flush;
-		sleep(1000);
+		cout << "[09]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[08]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[07]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[06]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[05]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[04]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[03]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[02]" << "\t\r" << flush;
+		Sleep(1000);
+		cout << "[01]" << "\t\r" << flush;
+		Sleep(1000);
 		cout << "[00] HELP! ARGL!" << "\t\r" << flush;
-		sleep(200);
+		Sleep(100);
 
 
 }
